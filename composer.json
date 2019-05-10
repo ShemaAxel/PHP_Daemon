@@ -1,0 +1,20 @@
+{
+  "name": "exodus/learning",
+  "authors": [
+    {
+      "name": "axel",
+      "email": "shemaromeoaxel@gmail.com"
+    }
+  ],
+  "require": {
+    "j4mie/idiorm": "^1.5",
+    "monolog/monolog": "^1.24",
+    "vlucas/phpdotenv": "^3.3",
+    "africastalking/africastalking": "^2.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "app/"
+    }
+  }
+}
