@@ -6,7 +6,7 @@ $username = "axel";
 $apiKey = "412022e608798a4a37ca34d9bfe7f46a673da3be48c9d80ba3c8417d5ff9da48";
 $AT = new AfricasTalking($username, $apiKey);
 $sms = $AT->sms();
-$recipients = "+250788843531";
+$recipients = "+250782980090";
 $penalty = 118;
 $totalAmount = 15986;
 // Set your message
