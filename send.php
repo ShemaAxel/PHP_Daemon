@@ -14,7 +14,7 @@ $message = "Mukiriya wacu turabamenyeshako ukwezi ko kwishyura kwarenze.\n"
     . "hiyongereyeho " . $penalty . "RWF yubukererwe,"
     . "mukazishyura " . $totalAmount . "RWF.Murakoze"; //message
 // Set your shortCode or senderId
-$from = null;
+$from = "churchService";
 try {
     // Thats it, hit send and we'll take care of the rest
     $result = $sms->send([

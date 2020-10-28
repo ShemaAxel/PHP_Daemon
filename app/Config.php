@@ -36,6 +36,12 @@ class Config
     private $userName;
     private $apiKey;
 
+    #MVEND
+    private $sms_password;
+    private $sms_uri;
+    private $sms_key;
+    private $sms_username;
+
     /**
      * Daemon settings
      * please do not edit
@@ -43,7 +49,7 @@ class Config
     private $myOptions = [
         "authorName" => 'Shema Romeo Axel',
         "authorEmail" => 'shemaromeoaxel@gmail.com',
-        "appName" => 'smssender',
+        "appName" => 'smssend',
         "appDescription" => 'updating sms status',
         "appDir" => __DIR__ . '/..',
         "appExecutable" => 'init.php',
@@ -80,6 +86,10 @@ class Config
         $this->serviceID = getenv('SERVICE_ID');
         $this->userName = getenv('AF_USERNAME');
         $this->apiKey = getenv('AF_API_KEY');
+        $this->sms_password= getenv('SMS_PASSWORD');
+        $this->sms_uri= getenv('SMS_URI');
+        $this->sms_key= getenv('SMS_KEY');
+        $this->sms_username= getenv('SMS_USERNAME');
     }
 
     public static function instantiate()
