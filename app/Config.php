@@ -4,8 +4,6 @@ namespace App;
 
 class Config
 {
-
-    
     
     public static $singleton;
 
